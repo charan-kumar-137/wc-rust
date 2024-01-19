@@ -1,0 +1,14 @@
+[package]
+name = "wc-rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Charan Kumar N"]
+description = "print newline, word, and byte counts for each file"
+
+
+[dependencies]
+clap = {version = "4.4.11", features=["derive"]}
+
+[dev-dependencies]
+assert_fs = "1.0.13"
+fake = "2.9.2"
